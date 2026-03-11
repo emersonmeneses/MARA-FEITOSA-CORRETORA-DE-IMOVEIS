@@ -41,27 +41,34 @@ color:#333;
 }
 
 .hero{
-
 background:#F6F3EF;
 padding:120px 0;
-
 }
 
 .hero-content{
-
 display:flex;
 align-items:center;
 justify-content:space-between;
+gap:60px;
+min-height:500px;
+}
 
+.hero-text{
+flex:1;
+}
+
+.hero-img{
+flex:1;
+display:flex;
+justify-content:center;
 }
 
 .hero-img img{
-width:520px;
-max-width:100%;
+width:100%;
+max-width:650px;
 height:auto;
-border-radius:10px;
+border-radius:12px;
 }
-
 .btn-whatsapp{
 
 background:#25D366;
