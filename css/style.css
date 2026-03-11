@@ -1,3 +1,10 @@
+:root{
+
+--gold:#C8A46A;
+--gold-light:#D4AF7A;
+--gold-dark:#B8965A;
+
+}
 body{
 
 font-family:Poppins;
@@ -63,6 +70,37 @@ padding:12px 25px;
 border-radius:30px;
 text-decoration:none;
 
+} 
+.card h3{
+
+margin-top:10px;
+color:#333;
+
+}
+.card i{
+
+font-size:40px;
+color:var(--gold);
+
+}
+.produtos h2{
+
+text-align:center;
+font-size:34px;
+margin-bottom:40px;
+position:relative;
+
+}
+
+.produtos h2::after{
+
+content:"";
+width:120px;
+height:2px;
+background:var(--gold);
+display:block;
+margin:15px auto;
+
 }
 
 .cards{
@@ -75,13 +113,15 @@ margin-top:30px;
 
 .card{
 
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 10px 20px rgba(0,0,0,0.08);
-transition:0.3s;
+background:#fff;
+padding:35px 20px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+text-align:center;
 
 }
+
+
 
 .card:hover{
 
@@ -138,5 +178,20 @@ color:white;
 padding:15px;
 border-radius:50%;
 font-size:20px;
+
+}
+.sonho h2{
+
+font-size:36px;
+margin-bottom:10px;
+text-align:center;
+
+}
+
+.sonho p{
+
+max-width:700px;
+margin:auto;
+color:#666;
 
 }
